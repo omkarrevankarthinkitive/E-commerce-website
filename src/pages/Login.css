@@ -1,0 +1,67 @@
+.login_main {
+  display: flex;
+  background-color: #ffffff;
+}
+.imageLogin {
+  object-fit: cover;
+}
+
+.login_parent {
+  padding: 5rem;
+  background-color: #cee5d0;
+}
+
+/* login forms */
+
+.formLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formChild {
+  position: relative;
+  left: 80%;
+}
+
+.formChild p {
+  margin: 0.5rem;
+  position: relative;
+  right: 6px;
+}
+.formChild input {
+  height: 2.5rem;
+  width: 25rem;
+
+  border: 1px solid;
+  border-color: #cfd2cf;
+  font-size: 1.5rem;
+  color: #3d3c42;
+  border-radius: 10px;
+}
+
+.signinParent {
+  position: relative;
+  left: 73%;
+  margin: 2rem;
+}
+
+.buttonLogin {
+  position: relative;
+  right: 8px;
+  width: 25rem;
+  margin: 0.6rem;
+  height: 3rem;
+  background-color: #94b49f;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+p a {
+  color: #94b49f;
+}
+
+.imageLogin {
+  height: 50rem;
+}
